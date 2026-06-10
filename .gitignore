@@ -1,0 +1,23 @@
+# 숨김 폴더 및 파일 무시 (단, .gitignore 자체는 예외)
+.*
+!/.gitignore
+
+# 환경 변수 및 설정 파일 무시
+.env
+
+# 가상 환경(Virtual Environments) 무시
+.venv/
+venv/
+env/
+agents/.venv/
+agents/.agents/
+
+# Python 컴파일 및 캐시 파일 무시
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# OS 관련 숨김 파일 무시
+.DS_Store
+Thumbs.db
